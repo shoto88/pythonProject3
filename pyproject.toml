@@ -1,0 +1,41 @@
+[project]
+name = "bea"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "shoqed88", email = "sqheod.tt@gmail.com" }
+]
+dependencies = [
+    "streamlit>=1.34.0",
+    "langchain>=0.1.17",
+    "openai>=1.25.1",
+    "tiktoken>=0.6.0",
+    "faiss-cpu>=1.8.0",
+    "anthropic>=0.25.7",
+    "langchain_anthropic>=0.1.11",
+    "flet>=0.22.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+hello = "bea:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bea"]
+[tool.poetry]
+name = 'bea'
+version = "0.1.0"
+description = "bea"
+
