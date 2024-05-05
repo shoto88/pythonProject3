@@ -1,0 +1,19 @@
+[theme]
+# ベーステーマをライトモードに設定
+base = "light"
+
+# メインのアクセントカラーをピンク系に設定
+primaryColor = "#ff69b4"
+
+# メインコンテンツエリアの背景色を薄いピンクに設定
+backgroundColor = "#f5d7e3"
+
+# サイドバーとインタラクティブウィジェットの背景色をやや濃いピンクに設定
+secondaryBackgroundColor = "#ff85c1"
+
+# テキストカラーをダークグレーに設定
+textColor = "#000000"
+
+# アプリ全体のフォントをサンセリフに設定
+font = "sans serif"
+
